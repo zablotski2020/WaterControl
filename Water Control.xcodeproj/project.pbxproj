@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9790EDD29D0C5A900A91F6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9790EDC29D0C5A900A91F6E /* GoogleService-Info.plist */; };
+		B9790EE029D0C68000A91F6E /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B9790EDF29D0C68000A91F6E /* Algorithms */; };
+		B9790EE329D0C9C500A91F6E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = B9790EE229D0C9C500A91F6E /* FirebaseAnalytics */; };
+		B9790EE529D0C9C500A91F6E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = B9790EE429D0C9C500A91F6E /* FirebaseAuth */; };
+		B9790EE729D0C9C500A91F6E /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B9790EE629D0C9C500A91F6E /* FirebaseAuthCombine-Community */; };
+		B9790EE929D0C9C500A91F6E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = B9790EE829D0C9C500A91F6E /* FirebaseDatabase */; };
+		B9790EEB29D0C9C500A91F6E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = B9790EEA29D0C9C500A91F6E /* FirebaseFirestore */; };
+		B9790EED29D0C9C500A91F6E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B9790EEC29D0C9C500A91F6E /* FirebaseStorage */; };
+		B98C3E8129CE01D20076BB17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C3E8029CE01D20076BB17 /* AppDelegate.swift */; };
+		B98C3E8329CE01D20076BB17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C3E8229CE01D20076BB17 /* SceneDelegate.swift */; };
+		B98C3E8529CE01D20076BB17 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98C3E8429CE01D20076BB17 /* Constans.swift */; };
+		B98C3E8829CE01D20076BB17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98C3E8629CE01D20076BB17 /* Main.storyboard */; };
+		B98C3E8D29CE01D50076BB17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98C3E8C29CE01D50076BB17 /* Assets.xcassets */; };
+		B98C3E9E29CE04A60076BB17 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98C3E9D29CE04A60076BB17 /* Launch Screen.storyboard */; };
+		B98EA88229CE1E6C00ED2E56 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98EA88129CE1E6C00ED2E56 /* HomeViewController.swift */; };
+		B98EA88429CE1E8600ED2E56 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98EA88329CE1E8600ED2E56 /* SettingsViewController.swift */; };
+		B98EA88629CE1E9800ED2E56 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98EA88529CE1E9800ED2E56 /* LoginViewController.swift */; };
+		B98EA88929CE1EC000ED2E56 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98EA88829CE1EC000ED2E56 /* SignupViewController.swift */; };
+		B98EA88B29CE1ED100ED2E56 /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98EA88A29CE1ED000ED2E56 /* ForgotViewController.swift */; };
+		B98EA88D29CE1EE900ED2E56 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98EA88C29CE1EE900ED2E56 /* CalendarViewController.swift */; };
+		B98EA88F29CE207300ED2E56 /* GlassManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98EA88E29CE207300ED2E56 /* GlassManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9790EDC29D0C5A900A91F6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B98C3E7D29CE01D20076BB17 /* Water Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Water Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B98C3E8029CE01D20076BB17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B98C3E8229CE01D20076BB17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B98C3E8429CE01D20076BB17 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		B98C3E8729CE01D20076BB17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B98C3E8C29CE01D50076BB17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B98C3E9129CE01D50076BB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B98C3E9D29CE04A60076BB17 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		B98EA88129CE1E6C00ED2E56 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B98EA88329CE1E8600ED2E56 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B98EA88529CE1E9800ED2E56 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B98EA88829CE1EC000ED2E56 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		B98EA88A29CE1ED000ED2E56 /* ForgotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		B98EA88C29CE1EE900ED2E56 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		B98EA88E29CE207300ED2E56 /* GlassManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B98C3E7A29CE01D20076BB17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9790EE929D0C9C500A91F6E /* FirebaseDatabase in Frameworks */,
+				B9790EE329D0C9C500A91F6E /* FirebaseAnalytics in Frameworks */,
+				B9790EE529D0C9C500A91F6E /* FirebaseAuth in Frameworks */,
+				B9790EE029D0C68000A91F6E /* Algorithms in Frameworks */,
+				B9790EED29D0C9C500A91F6E /* FirebaseStorage in Frameworks */,
+				B9790EE729D0C9C500A91F6E /* FirebaseAuthCombine-Community in Frameworks */,
+				B9790EEB29D0C9C500A91F6E /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9790EEE29D0CBAD00A91F6E /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				B98C3E8029CE01D20076BB17 /* AppDelegate.swift */,
+				B98C3E8229CE01D20076BB17 /* SceneDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		B98C3E7429CE01D10076BB17 = {
+			isa = PBXGroup;
+			children = (
+				B98C3E7F29CE01D20076BB17 /* Water Control */,
+				B98C3E7E29CE01D20076BB17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B98C3E7E29CE01D20076BB17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B98C3E7D29CE01D20076BB17 /* Water Control.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B98C3E7F29CE01D20076BB17 /* Water Control */ = {
+			isa = PBXGroup;
+			children = (
+				B98C3E9729CE021A0076BB17 /* Models */,
+				B98C3E9829CE02270076BB17 /* Views */,
+				B98C3E9929CE023E0076BB17 /* Controllers */,
+				B98C3E8429CE01D20076BB17 /* Constans.swift */,
+				B98C3E8C29CE01D50076BB17 /* Assets.xcassets */,
+				B9790EDC29D0C5A900A91F6E /* GoogleService-Info.plist */,
+				B9790EEE29D0CBAD00A91F6E /* AppDelegates */,
+				B98C3E9129CE01D50076BB17 /* Info.plist */,
+			);
+			path = "Water Control";
+			sourceTree = "<group>";
+		};
+		B98C3E9729CE021A0076BB17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B98EA88E29CE207300ED2E56 /* GlassManager.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B98C3E9829CE02270076BB17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B98C3E9D29CE04A60076BB17 /* Launch Screen.storyboard */,
+				B98C3E8629CE01D20076BB17 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B98C3E9929CE023E0076BB17 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B98EA88129CE1E6C00ED2E56 /* HomeViewController.swift */,
+				B98EA88329CE1E8600ED2E56 /* SettingsViewController.swift */,
+				B98EA88529CE1E9800ED2E56 /* LoginViewController.swift */,
+				B98EA88829CE1EC000ED2E56 /* SignupViewController.swift */,
+				B98EA88A29CE1ED000ED2E56 /* ForgotViewController.swift */,
+				B98EA88C29CE1EE900ED2E56 /* CalendarViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B98C3E7C29CE01D20076BB17 /* Water Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B98C3E9429CE01D50076BB17 /* Build configuration list for PBXNativeTarget "Water Control" */;
+			buildPhases = (
+				B98C3E7929CE01D20076BB17 /* Sources */,
+				B98C3E7A29CE01D20076BB17 /* Frameworks */,
+				B98C3E7B29CE01D20076BB17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Water Control";
+			packageProductDependencies = (
+				B9790EDF29D0C68000A91F6E /* Algorithms */,
+				B9790EE229D0C9C500A91F6E /* FirebaseAnalytics */,
+				B9790EE429D0C9C500A91F6E /* FirebaseAuth */,
+				B9790EE629D0C9C500A91F6E /* FirebaseAuthCombine-Community */,
+				B9790EE829D0C9C500A91F6E /* FirebaseDatabase */,
+				B9790EEA29D0C9C500A91F6E /* FirebaseFirestore */,
+				B9790EEC29D0C9C500A91F6E /* FirebaseStorage */,
+			);
+			productName = "Water Control";
+			productReference = B98C3E7D29CE01D20076BB17 /* Water Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B98C3E7529CE01D10076BB17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B98C3E7C29CE01D20076BB17 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B98C3E7829CE01D10076BB17 /* Build configuration list for PBXProject "Water Control" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B98C3E7429CE01D10076BB17;
+			packageReferences = (
+				B9790EDE29D0C68000A91F6E /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				B9790EE129D0C9C500A91F6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = B98C3E7E29CE01D20076BB17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B98C3E7C29CE01D20076BB17 /* Water Control */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B98C3E7B29CE01D20076BB17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98C3E9E29CE04A60076BB17 /* Launch Screen.storyboard in Resources */,
+				B9790EDD29D0C5A900A91F6E /* GoogleService-Info.plist in Resources */,
+				B98C3E8D29CE01D50076BB17 /* Assets.xcassets in Resources */,
+				B98C3E8829CE01D20076BB17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B98C3E7929CE01D20076BB17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98EA88D29CE1EE900ED2E56 /* CalendarViewController.swift in Sources */,
+				B98EA88629CE1E9800ED2E56 /* LoginViewController.swift in Sources */,
+				B98EA88229CE1E6C00ED2E56 /* HomeViewController.swift in Sources */,
+				B98EA88B29CE1ED100ED2E56 /* ForgotViewController.swift in Sources */,
+				B98EA88F29CE207300ED2E56 /* GlassManager.swift in Sources */,
+				B98EA88929CE1EC000ED2E56 /* SignupViewController.swift in Sources */,
+				B98C3E8529CE01D20076BB17 /* Constans.swift in Sources */,
+				B98C3E8129CE01D20076BB17 /* AppDelegate.swift in Sources */,
+				B98C3E8329CE01D20076BB17 /* SceneDelegate.swift in Sources */,
+				B98EA88429CE1E8600ED2E56 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B98C3E8629CE01D20076BB17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B98C3E8729CE01D20076BB17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B98C3E9229CE01D50076BB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B98C3E9329CE01D50076BB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B98C3E9529CE01D50076BB17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D298QL4HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Water Control/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Water Control";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1lyazz.Water-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B98C3E9629CE01D50076BB17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2D298QL4HC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Water Control/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Water Control";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1lyazz.Water-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B98C3E7829CE01D10076BB17 /* Build configuration list for PBXProject "Water Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98C3E9229CE01D50076BB17 /* Debug */,
+				B98C3E9329CE01D50076BB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B98C3E9429CE01D50076BB17 /* Build configuration list for PBXNativeTarget "Water Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98C3E9529CE01D50076BB17 /* Debug */,
+				B98C3E9629CE01D50076BB17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B9790EDE29D0C68000A91F6E /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		B9790EE129D0C9C500A91F6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B9790EDF29D0C68000A91F6E /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9790EDE29D0C68000A91F6E /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		B9790EE229D0C9C500A91F6E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9790EE129D0C9C500A91F6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		B9790EE429D0C9C500A91F6E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9790EE129D0C9C500A91F6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		B9790EE629D0C9C500A91F6E /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9790EE129D0C9C500A91F6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		B9790EE829D0C9C500A91F6E /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9790EE129D0C9C500A91F6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		B9790EEA29D0C9C500A91F6E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9790EE129D0C9C500A91F6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		B9790EEC29D0C9C500A91F6E /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9790EE129D0C9C500A91F6E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B98C3E7529CE01D10076BB17 /* Project object */;
+}
